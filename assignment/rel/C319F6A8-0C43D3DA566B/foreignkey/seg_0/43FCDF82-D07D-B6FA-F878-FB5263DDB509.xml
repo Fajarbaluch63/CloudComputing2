@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="43FCDF82-D07D-B6FA-F878-FB5263DDB509" containerWithKeyObject="0389BCEE-07F4-CB08-D5AF-A37C2B38DC26" localFKIndex="F8E489FA-5AB9-6A91-87A9-80087CE8E0BB" name="ComputerComp_Computer_FK">
+<sourceDDLFile>computer.sql</sourceDDLFile>
+<createdBy>fajaralbalushi</createdBy>
+<createdTime>2023-10-26 14:11:58 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<importedID>D858BE3C-E980-1B5D-F719-EDEAA06701A7</importedID>
+<referredTableLongName>Computer</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>388706B7-7B0A-1C6D-08E1-C6C0EEFCB177</referredTableID>
+<keyObject>2D8E3FE9-7E96-7644-05EF-08E28D917F7D</keyObject>
+<referredKeyID>2D8E3FE9-7E96-7644-05EF-08E28D917F7D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ComputerID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

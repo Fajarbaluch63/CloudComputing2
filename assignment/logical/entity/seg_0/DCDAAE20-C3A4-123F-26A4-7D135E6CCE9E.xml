@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DCDAAE20-C3A4-123F-26A4-7D135E6CCE9E" name="OrderInfo">
+<createdBy>fajaralbalushi</createdBy>
+<createdTime>2023-10-26 14:13:48 UTC</createdTime>
+<generatorID>903FD299-E3D9-87EC-B349-5D749F0BD2E2</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="C319F6A8-8AF6-30B0-4B38-0C43D3DA566B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="OrderNumber" id="BE21ACFB-3ADC-060B-2029-30C7CBF05052">
+<createdBy>fajaralbalushi</createdBy>
+<createdTime>2023-10-26 14:13:48 UTC</createdTime>
+<generatorID>BD2E2E0D-40B1-8D3E-68C1-12A8A3FA1210</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="C319F6A8-8AF6-30B0-4B38-0C43D3DA566B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>0F1D149A-CFD7-7CB7-5D9C-C7B952B632F6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CustomerID" id="AED068F6-7AF5-AB12-E60B-A1B82A1E1568">
+<createdBy>fajaralbalushi</createdBy>
+<createdTime>2023-10-26 14:13:48 UTC</createdTime>
+<generatorID>D9BB9552-106E-F6CA-F52E-24C572F32122</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="C319F6A8-8AF6-30B0-4B38-0C43D3DA566B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>28D91E6A-98B3-BF0C-8481-79C34FD3113D</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>0F1D149A-CFD7-7CB7-5D9C-C7B952B632F6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderDate" id="9B505E16-D583-84AB-17C6-D9498CA804C0">
+<createdBy>fajaralbalushi</createdBy>
+<createdTime>2023-10-26 14:13:48 UTC</createdTime>
+<generatorID>47B26D92-F281-732F-CCFE-2C5A3C7ADDC6</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="C319F6A8-8AF6-30B0-4B38-0C43D3DA566B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>54E7271C-5BDB-8A1E-379B-3871458B0EB9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ShippedDate" id="05E90A68-6A41-0CE8-1F4E-0BB2F92124D8">
+<createdBy>fajaralbalushi</createdBy>
+<createdTime>2023-10-26 14:13:48 UTC</createdTime>
+<generatorID>CAC4CB7A-32E1-7670-D86A-C304B7A0A60A</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="C319F6A8-8AF6-30B0-4B38-0C43D3DA566B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>54E7271C-5BDB-8A1E-379B-3871458B0EB9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="40343765-0059-BC23-19FD-E39104A93D12">
+<createdBy>fajaralbalushi</createdBy>
+<createdTime>2023-10-26 14:13:48 UTC</createdTime>
+<generatorID>D5110575-2072-4D20-F9EC-311428234CC6</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="C319F6A8-8AF6-30B0-4B38-0C43D3DA566B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D8206DF0-E2DF-247C-D6EB-CB23B125E977</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9082B9F9-90BF-CACA-FC28-13F866A29C06" name="OrderInfo PK">
+<createdBy>fajaralbalushi</createdBy>
+<createdTime>2023-10-26 14:13:48 UTC</createdTime>
+<generatorID>3FA01D61-85D3-D07C-3E03-E2DFD74AC74B</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="C319F6A8-8AF6-30B0-4B38-0C43D3DA566B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BE21ACFB-3ADC-060B-2029-30C7CBF05052</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

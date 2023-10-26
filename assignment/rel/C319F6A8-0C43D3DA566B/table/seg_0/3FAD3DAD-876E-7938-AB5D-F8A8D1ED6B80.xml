@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3FAD3DAD-876E-7938-AB5D-F8A8D1ED6B80" name="Component">
+<sourceDDLFile>computer.sql</sourceDDLFile>
+<createdBy>fajaralbalushi</createdBy>
+<createdTime>2023-10-26 14:11:57 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<importedID>19A8ADBF-FF78-54F5-F044-F3D34DD572DB</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SerialNo" id="9EABF2B3-0F1B-9FE8-E448-FAED2B1AEA73">
+<sourceDDLFile>computer.sql</sourceDDLFile>
+<createdBy>fajaralbalushi</createdBy>
+<createdTime>2023-10-26 14:11:58 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<importedID>B8826EE5-8642-E0D1-C06A-371470A449BD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D8206DF0-E2DF-247C-D6EB-CB23B125E977</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ComponentTypeID" id="AF6BAA42-8B88-260E-79DB-18E5208A7A00">
+<sourceDDLFile>computer.sql</sourceDDLFile>
+<createdBy>fajaralbalushi</createdBy>
+<createdTime>2023-10-26 14:11:58 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<importedID>4A55AB3D-0428-B650-266F-B89D8EB9F4A0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>0F1D149A-CFD7-7CB7-5D9C-C7B952B632F6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2362D37C-38C9-C2A2-1B24-B2A1F7E13DAE" referredColumn="1D9D76D2-FFB6-2C4F-59B3-374CBD3EFA82"/>
+</associations>
+</Column>
+<Column name="SupplierID" id="02CEBC1B-0161-3D1E-5E94-3023A30547FB">
+<sourceDDLFile>computer.sql</sourceDDLFile>
+<createdBy>fajaralbalushi</createdBy>
+<createdTime>2023-10-26 14:11:58 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<importedID>E5A1582E-C3AC-9764-F0CF-89A5C9AA128F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>0F1D149A-CFD7-7CB7-5D9C-C7B952B632F6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F74BD2E5-E3AC-D749-D499-EEE80B286628" referredColumn="F2881F88-DBD6-012C-147F-95F8CC2EF33B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B68E6895-2F35-AAB8-21C9-5919F6AD5C0B" name="Component_PK">
+<sourceDDLFile>computer.sql</sourceDDLFile>
+<createdBy>fajaralbalushi</createdBy>
+<createdTime>2023-10-26 14:11:58 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<importedID>407DE960-67A5-ED05-B7E6-0F1599E84474</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EABF2B3-0F1B-9FE8-E448-FAED2B1AEA73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56C92C62-4EF5-2FB0-CEAD-E602A63593B6" name="Component_CompType_FK">
+<createdBy>fajaralbalushi</createdBy>
+<createdTime>2023-10-26 14:11:58 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF6BAA42-8B88-260E-79DB-18E5208A7A00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F8365F2-18F5-D69E-F04B-D53ABEECBE49" name="Component_Supplier_FK">
+<createdBy>fajaralbalushi</createdBy>
+<createdTime>2023-10-26 14:11:58 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02CEBC1B-0161-3D1E-5E94-3023A30547FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

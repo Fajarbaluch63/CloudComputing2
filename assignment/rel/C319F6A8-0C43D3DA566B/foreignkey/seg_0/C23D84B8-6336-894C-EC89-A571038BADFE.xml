@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C23D84B8-6336-894C-EC89-A571038BADFE" containerWithKeyObject="0389BCEE-07F4-CB08-D5AF-A37C2B38DC26" localFKIndex="EB8C0A57-6CBE-7135-5ED2-EA3AD049DAE3" name="ComputerComp_Component_FK">
+<sourceDDLFile>computer.sql</sourceDDLFile>
+<createdBy>fajaralbalushi</createdBy>
+<createdTime>2023-10-26 14:11:58 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<importedID>83C107F6-A592-DD74-806D-F96E889300D4</importedID>
+<referredTableLongName>Component</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3FAD3DAD-876E-7938-AB5D-F8A8D1ED6B80</referredTableID>
+<keyObject>B68E6895-2F35-AAB8-21C9-5919F6AD5C0B</keyObject>
+<referredKeyID>B68E6895-2F35-AAB8-21C9-5919F6AD5C0B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SerialNo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

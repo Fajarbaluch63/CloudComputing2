@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0389BCEE-07F4-CB08-D5AF-A37C2B38DC26" name="ComputerComp">
+<sourceDDLFile>computer.sql</sourceDDLFile>
+<createdBy>fajaralbalushi</createdBy>
+<createdTime>2023-10-26 14:11:57 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<importedID>3F28C219-6F02-7B29-4991-099ED4C36737</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ComputerID" id="138A3124-85B0-B19D-C15E-5B988605BA61">
+<sourceDDLFile>computer.sql</sourceDDLFile>
+<createdBy>fajaralbalushi</createdBy>
+<createdTime>2023-10-26 14:11:58 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<importedID>4A778C92-2331-8881-8C3B-7DF33ED1381C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>0F1D149A-CFD7-7CB7-5D9C-C7B952B632F6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43FCDF82-D07D-B6FA-F878-FB5263DDB509" referredColumn="B5326174-281E-7366-FA57-75D6925C60AC"/>
+</associations>
+</Column>
+<Column name="SerialNo" id="7650778E-8279-AC43-D103-32F95828FED3">
+<sourceDDLFile>computer.sql</sourceDDLFile>
+<createdBy>fajaralbalushi</createdBy>
+<createdTime>2023-10-26 14:11:58 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<importedID>847C894E-E64C-7AAA-33D8-07937064B127</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D8206DF0-E2DF-247C-D6EB-CB23B125E977</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C23D84B8-6336-894C-EC89-A571038BADFE" referredColumn="9EABF2B3-0F1B-9FE8-E448-FAED2B1AEA73"/>
+</associations>
+</Column>
+<Column name="SpecStatus" id="342C5349-68C8-EEA2-53D4-94EFA0A7F096">
+<sourceDDLFile>computer.sql</sourceDDLFile>
+<createdBy>fajaralbalushi</createdBy>
+<createdTime>2023-10-26 14:11:58 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<importedID>28EA2D72-E77A-501C-A47E-8603E5422B2E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D8206DF0-E2DF-247C-D6EB-CB23B125E977</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E19CCD3-D2E6-525B-1CFA-6500A1ECA131" name="ComputerComp_PK">
+<sourceDDLFile>computer.sql</sourceDDLFile>
+<createdBy>fajaralbalushi</createdBy>
+<createdTime>2023-10-26 14:11:58 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<importedID>09659BCB-CE9D-D08D-67B1-27EDB3828295</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="138A3124-85B0-B19D-C15E-5B988605BA61"/>
+<colUsage columnID="7650778E-8279-AC43-D103-32F95828FED3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB8C0A57-6CBE-7135-5ED2-EA3AD049DAE3" name="ComputerComp_Component_FK">
+<createdBy>fajaralbalushi</createdBy>
+<createdTime>2023-10-26 14:11:58 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7650778E-8279-AC43-D103-32F95828FED3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8E489FA-5AB9-6A91-87A9-80087CE8E0BB" name="ComputerComp_Computer_FK">
+<createdBy>fajaralbalushi</createdBy>
+<createdTime>2023-10-26 14:11:58 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="138A3124-85B0-B19D-C15E-5B988605BA61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

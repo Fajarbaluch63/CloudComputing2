@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A53D9A3D-49B5-C7B8-F9F4-1DE80D5990ED" name="Computer">
+<createdBy>fajaralbalushi</createdBy>
+<createdTime>2023-10-26 14:13:48 UTC</createdTime>
+<generatorID>388706B7-7B0A-1C6D-08E1-C6C0EEFCB177</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="C319F6A8-8AF6-30B0-4B38-0C43D3DA566B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ComputerID" id="F58B372A-752D-9118-711C-51F619C0B1C5">
+<createdBy>fajaralbalushi</createdBy>
+<createdTime>2023-10-26 14:13:48 UTC</createdTime>
+<generatorID>B5326174-281E-7366-FA57-75D6925C60AC</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="C319F6A8-8AF6-30B0-4B38-0C43D3DA566B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>0F1D149A-CFD7-7CB7-5D9C-C7B952B632F6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderNumber" id="D337B35F-8B9C-C273-5CCB-B489762D269A">
+<createdBy>fajaralbalushi</createdBy>
+<createdTime>2023-10-26 14:13:48 UTC</createdTime>
+<generatorID>1B5FA768-1188-A8E3-4C80-42AEE370EB87</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="C319F6A8-8AF6-30B0-4B38-0C43D3DA566B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>BE21ACFB-3ADC-060B-2029-30C7CBF05052</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>0F1D149A-CFD7-7CB7-5D9C-C7B952B632F6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4E7F4FB1-5FD8-5E9F-C39C-40C919781767" name="Computer PK">
+<createdBy>fajaralbalushi</createdBy>
+<createdTime>2023-10-26 14:13:48 UTC</createdTime>
+<generatorID>2D8E3FE9-7E96-7644-05EF-08E28D917F7D</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="C319F6A8-8AF6-30B0-4B38-0C43D3DA566B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F58B372A-752D-9118-711C-51F619C0B1C5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
